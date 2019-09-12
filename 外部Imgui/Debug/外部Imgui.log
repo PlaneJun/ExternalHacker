@@ -1,0 +1,4 @@
+﻿  ImguiInit.cpp
+E:\Code\C-C++\外部Imgui\外部Imgui\ImguiInit.cpp(65,44): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\Code\C-C++\外部Imgui\外部Imgui\ImguiInit.cpp(65,34): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+  外部Imgui.vcxproj -> E:\Code\C-C++\外部Imgui\Debug\外部Imgui.exe

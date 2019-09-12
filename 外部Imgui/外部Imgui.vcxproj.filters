@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{99cdc9a3-5d8d-474c-aae6-955ff992cc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\头文件">
+      <UniqueIdentifier>{637127d0-f74d-4909-9416-3c55367bcac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\源代码">
+      <UniqueIdentifier>{2c2163f4-546a-4b4c-bf5a-63092d0ce10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{176ab99c-4cd1-4178-bf34-128818ba6e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\Headers">
+      <UniqueIdentifier>{c707ccda-1d64-4ca1-8c3a-86e66b105f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui\Sources">
+      <UniqueIdentifier>{fa728b16-d20f-432f-b3b6-8b1068468bcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalDraw.cpp">
+      <Filter>Core\源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="DxInit.cpp">
+      <Filter>Core\源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="ImguiInit.cpp">
+      <Filter>Core\源代码</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>imgui\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>imgui\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>imgui\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>imgui\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread.cpp">
+      <Filter>Core\源代码</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExternalDraw.h">
+      <Filter>Core\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DxInit.h">
+      <Filter>Core\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImguiInit.h">
+      <Filter>Core\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>Core\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
